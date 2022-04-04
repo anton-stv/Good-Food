@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="main.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+ <title>Good&Food</title>
+</head>
+<body>
+  <div id="wrapper">
+    <header id="header"> 
+      <div class="container">
+        <div class="header-row">
+          <div id="logo">
+            <a href="index.html" class="standard-logo"><img src="images/logo.png" alt="Logo"></a>
+            <a href="index.html" class="retina-logo"><img src="images/logo@2x.png" alt="Logo"></a>
+          </div>
+            <ul class="links">
+              <li class="item">
+                <a href="#" class="link" href="tel:+79770000000">
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="" viewBox="0 0 18 19" fill="none">
+                      <path d="M3.54 2.5C3.6 3.39 3.75 4.26 3.99 5.09L2.79 6.29C2.38 5.09 2.12 3.82 2.03 2.5H3.54ZM13.4 14.52C14.25 14.76 15.12 14.91 16 14.97V16.46C14.68 16.37 13.41 16.11 12.2 15.71L13.4 14.52ZM4.5 0.5H1C0.45 0.5 0 0.95 0 1.5C0 10.89 7.61 18.5 17 18.5C17.55 18.5 18 18.05 18 17.5V14.01C18 13.46 17.55 13.01 17 13.01C15.76 13.01 14.55 12.81 13.43 12.44C13.33 12.4 13.22 12.39 13.12 12.39C12.86 12.39 12.61 12.49 12.41 12.68L10.21 14.88C7.38 13.43 5.06 11.12 3.62 8.29L5.82 6.09C6.1 5.81 6.18 5.42 6.07 5.07C5.7 3.95 5.5 2.75 5.5 1.5C5.5 0.95 5.05 0.5 4.5 0.5Z" fill="white"/>
+                    </svg>
+                  </span>
+                  <span class="label">+7 977 000-00-00</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link" href="mailto:support@mail.ru">
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="" viewBox="0 0 20 21" fill="none">
+                      <path d="M10 0.5C4.48 0.5 0 4.98 0 10.5C0 16.02 4.48 20.5 10 20.5H15V18.5H10C5.66 18.5 2 14.84 2 10.5C2 6.16 5.66 2.5 10 2.5C14.34 2.5 18 6.16 18 10.5V11.93C18 12.72 17.29 13.5 16.5 13.5C15.71 13.5 15 12.72 15 11.93V10.5C15 7.74 12.76 5.5 10 5.5C7.24 5.5 5 7.74 5 10.5C5 13.26 7.24 15.5 10 15.5C11.38 15.5 12.64 14.94 13.54 14.03C14.19 14.92 15.31 15.5 16.5 15.5C18.47 15.5 20 13.9 20 11.93V10.5C20 4.98 15.52 0.5 10 0.5ZM10 13.5C8.34 13.5 7 12.16 7 10.5C7 8.84 8.34 7.5 10 7.5C11.66 7.5 13 8.84 13 10.5C13 12.16 11.66 13.5 10 13.5Z" fill="white"/>
+                    </svg>
+                  </span>
+                  <span class="label">support@mail.ru</span>
+                </a>
+              </li>
+              <li class="item">
+                <a id="login" href="#" class="link button-link" href="#">
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="" viewBox="0 0 18 19" fill="none">
+                      <path d="M16 16.5V1.5H12V0.5H2V16.5H0V18.5H12V3.5H14V18.5H18V16.5H16ZM10 16.5H4V2.5H10V16.5ZM7 8.5H9V10.5H7V8.5Z" fill="#FFAB00"/>
+                    </svg>
+                  </span>
+                  <span class="label">Войти</span>
+                </a>
+              </li>
+              <li class="item">
+                <a id="partner" href="#" class="link button-link" href="#">
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="" viewBox="0 0 24 17" fill="none">
+                      <path opacity="0.3" d="M8 11.5C5.3 11.5 2.2 12.79 2 13.51V14.5H14V13.5C13.8 12.79 10.7 11.5 8 11.5Z" fill="#FFAB00"/>
+                      <path opacity="0.3" d="M8 6.5C9.10457 6.5 10 5.60457 10 4.5C10 3.39543 9.10457 2.5 8 2.5C6.89543 2.5 6 3.39543 6 4.5C6 5.60457 6.89543 6.5 8 6.5Z" fill="#FFAB00"/>
+                      <path d="M22 5.5V3.5H20V5.5H18V7.5H20V9.5H22V7.5H24V5.5H22Z" fill="#FFAB00"/>
+                      <path d="M8 8.5C10.21 8.5 12 6.71 12 4.5C12 2.29 10.21 0.5 8 0.5C5.79 0.5 4 2.29 4 4.5C4 6.71 5.79 8.5 8 8.5ZM8 2.5C9.1 2.5 10 3.4 10 4.5C10 5.6 9.1 6.5 8 6.5C6.9 6.5 6 5.6 6 4.5C6 3.4 6.9 2.5 8 2.5Z" fill="#FFAB00"/>
+                      <path d="M8 9.5C5.33 9.5 0 10.84 0 13.5V16.5H16V13.5C16 10.84 10.67 9.5 8 9.5ZM14 14.5H2V13.51C2.2 12.79 5.3 11.5 8 11.5C10.7 11.5 13.8 12.79 14 13.5V14.5Z" fill="#FFAB00"/>
+                      <path d="M12.51 0.549805C13.43 1.6098 14 2.9898 14 4.4998C14 6.0098 13.43 7.3898 12.51 8.4498C14.47 8.1998 16 6.5398 16 4.4998C16 2.4598 14.47 0.799805 12.51 0.549805Z" fill="#FFAB00"/>
+                      <path d="M16.53 10.3301C17.42 11.1601 18 12.2001 18 13.5001V16.5001H20V13.5001C20 12.0501 18.41 10.9901 16.53 10.3301Z" fill="#FFAB00"/>
+                    </svg>
+                  </span>
+                  <span class="label">Стать партнером</span>
+                </a>
+              </li>
+            </ul>
+        </div>  
+      </div>
+    </header>
+
+    <div class="main">
+      <section id="intro" class="intro">
+        <div class="container">
+          <div class="phone-main">
+            <img class="lg" src="images/phone-main.png" alt="Телефон">
+            <img class="md" src="images/phone-main-m.png" alt="Телефон">
+            <img class="sm" src="images/phone-main-m.png" alt="Телефон">
+          </div>
+          <ul class="balls">
+            <li class="ball">
+              <img src="images/balls/Rectangle.png" alt="">
+              <a href="#" data-speed="1250" data-offset="65" class="one-page-arrow">
+                <svg class="icon-line-arrow-down infinite animated fadeInDown" xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16 19" fill="none">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15.6818 11.6424L8.76818 18.6763C8.34393 19.1079 7.65607 19.1079 7.23182 18.6763L0.318191 11.6424C-0.106063 11.2108 -0.106063 10.511 0.318191 10.0793C0.742445 9.64772 1.4303 9.64772 1.85455 10.0793L6.91363 15.2264L6.91363 1.08637C6.91363 0.486386 7.40001 3.75917e-07 8 3.49691e-07C8.59999 3.23465e-07 9.08637 0.486387 9.08637 1.08637L9.08637 15.2264L14.1454 10.0793C14.5697 9.64771 15.2576 9.64771 15.6818 10.0793C16.1061 10.511 16.1061 11.2108 15.6818 11.6424Z" fill="#DFEEF8"/>
+                </svg>
+              </a>
+            </li>
+            <li class="ball"><img src="images/balls/Rectangle-1.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-2.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-3.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-4.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-5.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-6.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-7.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-8.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-9.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-11.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-12.png" alt=""></li>
+            <li class="ball"><img src="images/balls/Rectangle-10.png" alt=""></li>
+          </ul>
+        </div>
+      </section>
+      <section id="download">
+        <div class="container">
+          <div class="download">
+            <div class="image-block">
+              <img src="images/phone-second.png" alt="">
+            </div>
+            <div class="text-block">
+              <h2 class="section-title animate__animated animate__bounce animate__delay-2s"><span>Где</span> скачать &#128640;</h2>
+              <p class="text">Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа</p>
+              <div class="images-row">
+                <img src="images/googleplay.png" alt="googleplay">
+                <img src="images/appstore.png" alt="appstore">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="numbers">
+        <div class="container">
+          <ul class="balls">
+            <li class="ball"><img class="animate__animated animate__fadeInLeft" src="images/balls/ball-1.png" alt=""></li>
+            <li class="ball"><img src="images/balls/ball-2.png" alt=""></li>
+            <li class="ball"><img src="images/balls/ball-3.png" alt=""></li>
+          </ul>
+          <div class="numbers">
+            <div class="text-block">
+              <h3 class="section-title animate__animated animate__bounce animate__delay-5s"><span>Ваши</span> любимые 📱 рестораны онлайн</h3>
+              <p class="text">Скачивайте приложение и создавайте свое виртуальное кафе  с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе  с электронным меню, доставкой и возможностью предзаказа</p>
+              <div class="numbers-row">
+                <div class="item">
+                  1740 +
+                  <span>Скачиваний</span>
+                </div>
+                <div class="item">
+                  12 +
+                  <span>Ресторанов</span>
+                </div>
+                <div class="item">
+                  ДО 90%
+                  <span>Cкидки</span>
+                </div>
+              </div>
+            </div>
+            <div class="image-block">
+              <img src="images/phone-third.png">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="platform">
+        <div class="container">
+          <div class="platform">
+            <div class="text-block">
+              <h3 class="section-title animate__animated animate__bounce animate__delay-5s"><span>Единая платформа</span> для всей России 🌏</h3>
+              <p class="text">Скачивайте приложение и создавайте свое виртуальное кафе электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказаСкачивайте приложение и создавайте свое виртуальное кафе</p>
+            </div>
+            <div class="image-block">
+              <div class="map">
+                  <img src="images/map.png">
+                  <img class="obj-on-map-1" src="images/obj-on-map-1.png" alt="">
+                  <img class="obj-on-map-2" src="images/obj-on-map-2.png" alt="">
+                  <img class="obj-on-map-3" src="images/obj-on-map-3.png" alt="">
+                  <img class="obj-on-map-4" src="images/obj-on-map-4.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="delivery">
+        <div class="container">
+          <ul class="balls">
+            <li class="ball"><img class="animate__animated animate__fadeInLeft" src="images/balls/delivery-ball-1.png" alt=""></li>
+            <li class="ball"><img src="images/balls/delivery-ball-2.png" alt=""></li>
+            <li class="ball"><img src="images/balls/delivery-ball-3.png" alt=""></li>
+          </ul>
+          <div class="delivery">
+            <div class="image-block">
+              <img src="images/delivery-person.png">
+              <div class="overlay"></div>
+            </div>
+            <div class="text-block">
+              <h3 class="section-title animate__animated animate__bounce animate__delay-5s">У нас есть доставка 🚁</h3>
+              <p class="text">Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение и создавайте свое виртуальное кафе с электронным меню, доставкой и возможностью предзаказа виртуальное кафе с электронным меню, доставкой</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faq">
+        <div class="container">
+          <div class="faq">
+            <div class="text-block">
+              <h3 class="section-title animate__animated animate__bounce animate__delay-5s">Часто задаваемы <span>вопросы</span> 🍪</h3>
+              <ul class="questions__list">
+                <li class="questions__item questions__item_active">
+                  <span>Вопрос в несколько слов</span>
+                  <div class="more"></div>
+                </li>
+                <div class="drop">Скачивайте приложение и создавайте свое виртуальное кафе  с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение
+                  и создавайте свое виртуальное кафе</div>
+                <li class="questions__item">
+                  <span>Вопрос в несколько строк</span>
+                  <div class="more"></div>
+                </li>
+                <div class="drop">Скачивайте приложение и создавайте свое виртуальное кафе  с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение
+                  и создавайте свое виртуальное кафе</div>
+                <li class="questions__item">
+                  <span>Вопрос в несколько букв</span>
+                  <div class="more"></div>
+                </li>
+                <div class="drop">Скачивайте приложение и создавайте свое виртуальное кафе  с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение
+                  и создавайте свое виртуальное кафе</div>
+                <li class="questions__item">
+                  <span>Вопрос в несколько символов</span>
+                  <div class="more"></div>
+                </li>
+                <div class="drop">Скачивайте приложение и создавайте свое виртуальное кафе  с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение
+                  и создавайте свое виртуальное кафе</div>
+                <li class="questions__item">
+                  <span>Вопрос в несколько слов</span>
+                  <div class="more"></div>
+                </li>
+                <div class="drop">Скачивайте приложение и создавайте свое виртуальное кафе  с электронным меню, доставкой и возможностью предзаказа Скачивайте приложение
+                  и создавайте свое виртуальное кафе</div>
+              </ul>
+            </div>
+            <div class="image-block">
+                <img src="images/faq-person.png">
+            </div>
+          </div>
+        </div>
+      </section>   
+      <section id="reviews">
+        <div class="overlay"></div>
+        <div class="container">
+          <ul class="balls">
+            <li class="ball"><img class="animate__animated animate__fadeInLeft" src="images/balls/reviews-ball-1.png" alt=""></li>
+            <li class="ball"><img src="images/balls/reviews-ball-2.png" alt=""></li>
+            <li class="ball"><img src="images/balls/reviews-ball-3.png" alt=""></li>
+          </ul>
+          <div class="reviews">
+            <div class="image-block">
+              <img src="images/reviews-phone.png">
+            </div>
+            <div class="text-block">
+              <h3 class="section-title animate__animated animate__bounce animate__delay-5s">Отзывы 💫</h3>
+              <p class="text">Скачивайте приложение и создавайте свое виртуальное афеэлектронным меню, доставкой и возможностью предзаказа:</p>
+              <p class="text"><em>Скачивайте приложение и создавайте свое виртуальное афеэлектронным меню, доставкой и возможностью предзаказа приложение и создавайте свое виртуальное афеэлектронным меню, доставкой и возможностью предзаказа приложение и создавайте свое виртуальное афеэлектронным меню, доставкой и возможностью предзаказа</em></p>
+              <p class="signature">Андрей мирнов, Клиент</p>
+            </div>
+          </div>
+        </div>
+      </section>   
+      <section id="feedback">
+        <div class="container">
+          <div class="form-block">
+            <form class="feedback" action="">
+              <h3 class="section-title animate__animated animate__bounce animate__delay-5s">Связаться с нами 💛</h3>
+              <p class="text">Вы можете связаться с нами  по любому вопросу</p>
+              <div class="form-row">
+                  <input type="text" class="form-control" placeholder="Ваше Имя" aria-label="Ваше Имя">
+                  <input type="tel" class="form-control" placeholder="Телефон" aria-label="Телефон">
+                  <input type="email" class="form-control" placeholder="E-mail" aria-label="E-mail">
+                  <button type="submit" class="submit-button">Отправить</button>
+                  <p>Нажимая на кнопку “Отправить” вы соглашаетесь с  <a href="#">политикой конфиденциальности</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>   
+    </div>  
+  </div>
+
+  <footer id="footer"> 
+      <div class="container">
+        <div class="footer-row">
+          <div id="logo">
+            <a href="index.html" class="standard-logo"><img src="images/logo.png" alt="Logo"></a>
+            <a href="index.html" class="retina-logo"><img src="images/logo@2x.png" alt="Logo"></a>
+          </div>
+            <ul class="links">
+              <li class="item">
+                <a href="#" class="link" href="tel:+79770000000">
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="" viewBox="0 0 18 19" fill="none">
+                      <path d="M3.54 2.5C3.6 3.39 3.75 4.26 3.99 5.09L2.79 6.29C2.38 5.09 2.12 3.82 2.03 2.5H3.54ZM13.4 14.52C14.25 14.76 15.12 14.91 16 14.97V16.46C14.68 16.37 13.41 16.11 12.2 15.71L13.4 14.52ZM4.5 0.5H1C0.45 0.5 0 0.95 0 1.5C0 10.89 7.61 18.5 17 18.5C17.55 18.5 18 18.05 18 17.5V14.01C18 13.46 17.55 13.01 17 13.01C15.76 13.01 14.55 12.81 13.43 12.44C13.33 12.4 13.22 12.39 13.12 12.39C12.86 12.39 12.61 12.49 12.41 12.68L10.21 14.88C7.38 13.43 5.06 11.12 3.62 8.29L5.82 6.09C6.1 5.81 6.18 5.42 6.07 5.07C5.7 3.95 5.5 2.75 5.5 1.5C5.5 0.95 5.05 0.5 4.5 0.5Z" fill="white"/>
+                    </svg>
+                  </span>
+                  <span class="label">+7 977 000-00-00</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="#" class="link" href="mailto:support@mail.ru">
+                  <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="" viewBox="0 0 20 21" fill="none">
+                      <path d="M10 0.5C4.48 0.5 0 4.98 0 10.5C0 16.02 4.48 20.5 10 20.5H15V18.5H10C5.66 18.5 2 14.84 2 10.5C2 6.16 5.66 2.5 10 2.5C14.34 2.5 18 6.16 18 10.5V11.93C18 12.72 17.29 13.5 16.5 13.5C15.71 13.5 15 12.72 15 11.93V10.5C15 7.74 12.76 5.5 10 5.5C7.24 5.5 5 7.74 5 10.5C5 13.26 7.24 15.5 10 15.5C11.38 15.5 12.64 14.94 13.54 14.03C14.19 14.92 15.31 15.5 16.5 15.5C18.47 15.5 20 13.9 20 11.93V10.5C20 4.98 15.52 0.5 10 0.5ZM10 13.5C8.34 13.5 7 12.16 7 10.5C7 8.84 8.34 7.5 10 7.5C11.66 7.5 13 8.84 13 10.5C13 12.16 11.66 13.5 10 13.5Z" fill="white"/>
+                    </svg>
+                  </span>
+                  <span class="label">support@mail.ru</span>
+                </a>
+              </li>
+              <li class="item">
+                <a a href="#" class="link button-link" href="#">
+                  <!-- <span class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="" viewBox="0 0 18 19" fill="none">
+                      <path d="M16 16.5V1.5H12V0.5H2V16.5H0V18.5H12V3.5H14V18.5H18V16.5H16ZM10 16.5H4V2.5H10V16.5ZM7 8.5H9V10.5H7V8.5Z" fill="#FFAB00"/>
+                    </svg>
+                  </span> -->
+                  Войти
+                </a>
+              </li>
+            </ul>
+        </div>  
+      </div>
+  </footer>
+
+
+ <script src="main.min.js"></script>
+</body>
+</html>
